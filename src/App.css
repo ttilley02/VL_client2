@@ -338,6 +338,7 @@ button {
   background: #335563;
   border-radius: 10px;
   font-size: 1.3em;
+  transition-duration: 0.2s;
 }
 
  
