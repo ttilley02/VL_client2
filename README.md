@@ -13,9 +13,9 @@ To start the client
 Open http://localhost:3000 to view it in the browser.
 Front end hosted by Vercel/Ziet
 
-![](/src/img/Capture.JPG)
-![](/src/img/Capture2.JPG)
-![](/src/img/Capture3.JPG)
+![](Capture.JPG)
+![](Capture2.JPG)
+![](Capture3.JPG)
 
 ### Technologies used
 
