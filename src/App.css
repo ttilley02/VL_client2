@@ -121,7 +121,10 @@ section {
     17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04),
     19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
 }
-
+div .back {
+  font-size: 2.1em;
+  text-align: center;
+}
 body {
   font-family: "Lato", Calibri, Arial, sans-serif;
   color: #f2ede3;
@@ -319,9 +322,30 @@ button {
   }
   .flip {
     font-size: 0.55em;
-    width: 250px;
-    height: 195px;
+    width: 200px;
     text-align: center;
+  }
+
+  .flip > .front,
+.flip > .back {
+  display: block;
+  color: white;
+  width: inherit;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 200px;
+  padding: 1em 2em;
+  background: #335563;
+  border-radius: 10px;
+  font-size: 1.3em;
+}
+
+ 
+
+  button{
+    font-size: 13px;
+    width: 60px;
+    margin-top: 5px;
   }
 }
 

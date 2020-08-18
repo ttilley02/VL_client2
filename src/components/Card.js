@@ -46,7 +46,7 @@ export default class Card extends Component {
           <h1 className="text-shadow">{card.spa_content}</h1>
         </div>
         <div className="back">
-          <h2>{card.eng_content}</h2>
+          <div className="back">{card.eng_content}</div>
           <p>
             <button
               className="favorite"
