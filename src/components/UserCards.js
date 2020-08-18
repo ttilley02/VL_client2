@@ -54,7 +54,7 @@ export default class Card extends Component {
             <Link
               to={{ pathname: `/addNote/${card.id}` }}
               history={this.props.history}
-              context={this.context}
+             
             >
               <div className="noteMessage">{noteMessage}</div>
             </Link>

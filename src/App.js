@@ -11,7 +11,7 @@ import Config from "./config";
 import Context from "./context";
 import PrivateRoute from "./components/PrivateRoute";
 import PublicOnlyRoute from "./components/PublicOnlyRoute";
-import AddNote from "./components/AddNote";
+import AddNote from "./routes/AddNote";
 import TokenService from "./services/token-service";
 
 export default class App extends Component {

@@ -10,6 +10,7 @@ export default class AddNote extends React.Component {
   static contextType = Context;
 
   validateNote() {
+    console.log(this.props)
     const note = this.context.noteName.value.trim();
     if (note.length > 100) {
       return "Note must be less than 100 characters in length";
