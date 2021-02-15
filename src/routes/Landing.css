@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+main {
+  font-family: "Oswald", sans-serif;
+}
+.land {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+.main {
+  color: rgb(85, 85, 85);
+  margin-left: 20px;
+}
+
+.logo {
+  background: url("https://i.imgur.com/oMnKG7t.jpg") no-repeat;
+  width: 500px;
+  height: 500px;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .land {
+    display: flex;
+    width: 600px;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+    font-size: 11px;
+  }
+  .main {
+    width: 400px;
+  }
+  .logo {
+    background: url("https://i.imgur.com/oMnKG7t.jpg") no-repeat;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  .land {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    font-size: 11px;
+  }
+  .logo {
+    background: url("https://i.imgur.com/oMnKG7t.jpg") no-repeat;
+    width: 200px;
+    height: 200px;
+  }
+}

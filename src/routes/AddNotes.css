@@ -1,0 +1,34 @@
+.ReviewForm {
+  text-align: center;
+  margin-top: 50px;
+}
+
+textarea {
+  background-color: #ffffff;
+  width: 400px;
+  height: 250px;
+  margin: 4em auto;
+  border-radius: 5px;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.addNote {
+  background: linear-gradient(to right, #27b08746, #0e43a565);
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: black;
+}
+
+.addNote:hover {
+  background: linear-gradient(to right, #27b087, #0e43a5);
+  color: white;
+}
