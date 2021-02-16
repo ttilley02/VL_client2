@@ -19,8 +19,9 @@ Front end hosted by Vercel/Ziet
 
 ### Technologies used
 
-React.js, Vanilla CSS5, Jwt-decode
+React.js, CSS, Jwt-decode ,
 
 ## Live Link to App
 
-https://vl-client2.vercel.app/
+Backend: hosted by me via Heroku
+Front end: https://vl-client2.vercel.app/
