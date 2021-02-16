@@ -25,13 +25,14 @@ export default class AddNote extends React.Component {
       method: "PATCH",
       headers: {
         "content-type": "application/json",
-        Authorization: `bearer ${TokenService.getAuthToken()}`
+        Authorization: `bearer ${TokenService.getAuthToken()}`,
       },
       body: JSON.stringify({
         card_id: this.props.match.params.cardId,
-        note: text.value
-      })
+        note: text.value,
+      }),
     }).then(() => {
+      this.context.noteName.value = "";
       this.props.history.push("/profile");
     });
   };
