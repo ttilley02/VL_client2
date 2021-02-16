@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { Button, Input, Required } from "../components/utils";
+import { Button, Input } from "../components/utils";
 import AuthApiService from "../services/auth-api-service";
 import "./RegistrationForm.css";
 
 export default class RegistrationForm extends Component {
   static defaultProps = {
-    onRegistrationSuccess: () => {}
+    onRegistrationSuccess: () => {},
   };
 
   state = { error: null };
@@ -18,7 +18,7 @@ export default class RegistrationForm extends Component {
       user_name: user_name.value,
       password: password.value,
       full_name: full_name.value,
-      nickname: nick_name.value
+      nickname: nick_name.value,
     })
       .then((user) => {
         full_name.value = "";
