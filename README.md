@@ -21,8 +21,6 @@ Front end hosted by Vercel/Ziet
 
 React.js, CSS, Jwt-decode ,
 
-## Live Link to App
+### Live Link to App: https://vl-client2.vercel.app/
 
-### Backend: hosted by me via Heroku. Repo available here https://github.com/ttilley02/vocabulabworkingserver
-
-### Front end: https://vl-client2.vercel.app/
+### Backend: hosted by me via Heroku. Repo available here: https://github.com/ttilley02/vocabulabworkingserver
