@@ -5,7 +5,7 @@ import config from "../config";
 import { Textarea } from "../components/utils";
 import Context from "../context";
 import ValidationError from "../components/ValidationError";
-import "./AddNotes.css";
+import "./AddNote.css";
 
 export default class AddNote extends React.Component {
   static contextType = Context;
