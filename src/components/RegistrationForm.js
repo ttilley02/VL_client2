@@ -67,6 +67,18 @@ export default class RegistrationForm extends Component {
             />
           </div>
 
+          <div className="nick_name">
+            <label htmlFor="RegistrationForm__user_name"></label>
+
+            <Input
+              className="un"
+              name="nick_name"
+              type="text"
+              id="RegistrationForm__nick_name"
+              placeholder="nick name"
+            />
+          </div>
+
           <div className="password">
             <label htmlFor="RegistrationForm__password"></label>
 
