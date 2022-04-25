@@ -5,6 +5,9 @@ build up your vocabulary with flash cards based on exercises from the University
 to favorite cards you want to focus on and add your own personal notes to them. Hover over a card to reveal the english definition and see more options.
 Choose from over 180(and counting!) cards in spanish to study!
 
+### Video Demo
+https://www.youtube.com/watch?v=WSa2-u4l2r8
+
 ### npm start
 
 To start the client
